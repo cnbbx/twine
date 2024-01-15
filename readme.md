@@ -42,6 +42,21 @@ https://www.cnbbx.com/story/%E7%AE%80%E5%8D%95%E5%BF%83%E7%90%86%E6%B5%8B%E8%AF%
 [[不好 -> 开始测试3]]
 ```
 
+##	Example usage:
+```
+music1 是指定对象  可以自行添加很多音乐对象
+(mp3-url:'http://***.com/*.mp3')
+(mp3-url:'http://***.com/*.mp3','music1')
+(mp3-set:true)是播放音乐
+(mp3-set:false)是暂停音乐
+(mp3-set:true,'music1')是播放音乐
+(mp3-set:false,'music1')是暂停音乐
+(mp3-loop:true)是循环播放
+(mp3-loop:false)是取消循环播放
+(mp3-loop:true,'music1')是循环播放
+(mp3-loop:false,'music1')是取消循环播放
+```
+
 # **WebGalgame（网页游戏）**
 
 WebGalgame 是一种基于网页技术开发的游戏类型，以文本、图像和音频为主要元素，让玩家通过浏览器在线进行游戏。以下是 WebGalgame 的介绍：
